@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.head h1 {
+  font-size: 50px;
+  font-weight: inherit;
+}
+
+.container__wrap {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active,
+.btn:hover {
+  background-color: #666;
+  color: white;
+}
+
+.mydiv__display {
+
+  margin: 10px;
+  display: none;
+}
+
+.myDiv_wrap {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.mydiv__display li {
+  margin: 10px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.mydiv__active {
+  display: block;
+}
